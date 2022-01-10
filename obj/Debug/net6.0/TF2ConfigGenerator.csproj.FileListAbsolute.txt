@@ -1,0 +1,15 @@
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\bin\Debug\net6.0\TF2ConfigGenerator.exe
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\bin\Debug\net6.0\TF2ConfigGenerator.deps.json
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\bin\Debug\net6.0\TF2ConfigGenerator.runtimeconfig.json
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\bin\Debug\net6.0\TF2ConfigGenerator.dll
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\bin\Debug\net6.0\ref\TF2ConfigGenerator.dll
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\bin\Debug\net6.0\TF2ConfigGenerator.pdb
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\obj\Debug\net6.0\TF2ConfigGenerator.csproj.AssemblyReference.cache
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\obj\Debug\net6.0\TF2ConfigGenerator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\obj\Debug\net6.0\TF2ConfigGenerator.AssemblyInfoInputs.cache
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\obj\Debug\net6.0\TF2ConfigGenerator.AssemblyInfo.cs
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\obj\Debug\net6.0\TF2ConfigGenerator.csproj.CoreCompileInputs.cache
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\obj\Debug\net6.0\TF2ConfigGenerator.dll
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\obj\Debug\net6.0\ref\TF2ConfigGenerator.dll
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\obj\Debug\net6.0\TF2ConfigGenerator.pdb
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\obj\Debug\net6.0\TF2ConfigGenerator.genruntimeconfig.cache
