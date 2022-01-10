@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.IO;
 using System.Net;
 using System.Net.Http;
@@ -7,129 +8,29 @@ using System.Reflection;
 using System.IO.Compression;
 using System.Security.Principal;
 using System.Diagnostics;
+using Console = Colorful.Console;
 
-Console.Title = "BLT.CFG 1.0";
-Console.ForegroundColor = ConsoleColor.White;
+Console.Title = "BLT.CFG 1.0.1";
+Console.ForegroundColor = Color.White;
+Console.BackgroundColor = Color.OrangeRed;
+
+Console.Clear();
 
 Console.WriteLine("/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-");
 Console.WriteLine("/-/-/-/-/-/-/-/BulutCorbaci's Config Generator/-/-/-/-/-/-/-/-");
 Console.WriteLine("/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-");
 Console.WriteLine("/-/-/-/-/-/-LightWeight Local TF2 Config Generator/-/-/-/-/-/-");
 Console.WriteLine("/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-");
-Console.WriteLine("/-/-/-/-/-/-/-/-/-/-Generator Version v1.0/-/-/-/-/-/-/-/-/-/-");
+Console.WriteLine("/-/-/-/-/-/-/-/-/-/Generator Version v1.0.1-/-/-/-/-/-/-/-/-/-");
 Console.WriteLine("/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-");
 
 
 
-//Console.WriteLine("Checking For Updates...");
-//Console.WriteLine("Fetching Web Data...");
-//if (File.Exists(@"C:\BLT.CFG\version.json"))
-//{
-//    File.Delete(@"C:\BLT.CFG\version.json");
-//}
-//Directory.CreateDirectory(@"C:\BLT.CFG\");
-//using (WebClient wc = new WebClient())
-//{
-//wc.DownloadProgressChanged += wc_DownloadProgressChanged;
-//wc.DownloadFileCompleted += new AsyncCompletedEventHandler(wc_DownloadComplete);
-//wc.DownloadFileAsync(
-// Param1 = Link of file
-//new System.Uri("https://bulutcorbaci.com.tr/blt.cfg.json"),
-// Param2 = Path to save
-//@"C:\BLT.CFG\version.json"
-//);
-//}
-//void wc_DownloadProgressChanged(object sender, DownloadProgressChangedEventArgs e)
-//{
-//Console.WriteLine("Fetching Data %" + e.ProgressPercentage + " done.");
-//}
-//void wc_DownloadComplete(object sender, AsyncCompletedEventArgs e)
-//{
-//    if (!File.Exists(@"C:\BLT.CFG\blt.local.version.json"))
-//    {
-//        Console.WriteLine("Version File Does Not Exist Creating One");
-//        StreamWriter SW = new System.IO.StreamWriter(@"C:\BLT.CFG\blt.local.version.json");
-//        SW.WriteLine("000");
-//        SW.Flush();77
-//        SW.Close();
-//        SW.Dispose();
-//        SW = null;
-//    }
-//    Console.WriteLine("Fetching Complete");
-//    int localVersion = int.Parse(File.ReadAllText(@"C:\BLT.CFG\blt.local.version.json"));
-//    int remoteVersion = int.Parse(File.ReadAllText(@"C:\BLT.CFG\version.json"));
-
-//if (localVersion < remoteVersion)
-//{
-//Console.WriteLine("Update Required");
-//Console.WriteLine("Downloading Update " + remoteVersion);
-//using (WebClient wc = new WebClient())
-//{
-//wc.DownloadProgressChanged += wc_DownloadProgressChanged;
-//wc.DownloadFileCompleted += new AsyncCompletedEventHandler(wc_UpdateDownloadComplete);
-//wc.DownloadFileAsync(
-// Param1 = Link of file
-//new System.Uri("https://bulutcorbaci.com.tr/blt.cfg.latest.zip"),
-// Param2 = Path to save
-//@"C:\BLT.CFG\latest.update.zip"
-//);
-//}
-//}
-//else if (localVersion == remoteVersion)
-//{
-//    Console.WriteLine("Version Up to Date");
-//}
-//else if (localVersion > remoteVersion)
-//{
-//    Console.WriteLine("Version Unknown Continuing Anyway");
-//}
-//}
-
-//void wc_UpdateDownloadComplete(object sender, AsyncCompletedEventArgs e)
-//{
-//    WindowsIdentity identity = WindowsIdentity.GetCurrent();
-//    WindowsPrincipal principal = new WindowsPrincipal(identity);
-//    if (!principal.IsInRole(WindowsBuiltInRole.Administrator))
-//    {
-//        Console.WriteLine("Administrator Rights Needed");
-//StartAsAdmin(Assembly.GetExecutingAssembly().Location);
 
 
-//    }
-//    if (!Directory.Exists(@"C:\Program Files (x86)\BLT.CFG\"))
-//    {
-//        Directory.CreateDirectory(@"C:\Program Files (x86)\BLT.CFG\");
-//    }
-//    if (!File.Exists(@"C:\BLT.CFG\manifest.json"))
-//    {
-//        Console.WriteLine("Manifest File Does Not Exist Creating One From Defaults");
-//        StreamWriter SW = new System.IO.StreamWriter(@"C:\BLT.CFG\manifest.json");
-//        SW.WriteLine(@"C:\Program Files (x86)\BLT.CFG\");
-//        SW.Flush();
-//        SW.Close();
-//        SW.Dispose();
-//        SW = null;
-//    }
+Console.WriteLine("Press Any Key Start Generating...");
+string startKey = Console.ReadLine();
 
-//    ZipFile.ExtractToDirectory(@"C:\BLT.CFG\latest.update.zip", File.ReadAllText(@"C:\BLT.CFG\manifest.json"));
-//}
-//void StartAsAdmin(string fileName)
-//{
-//    var proc = new Process
-//    {
-//        StartInfo =
-//        {
-//            FileName = Assembly.GetEntryAssembly().Location,
-//            UseShellExecute = true,
-//            Verb = "runas"
-//        }
-//    };
-//
-//    proc.Start();
-//}
-
-Console.WriteLine("Press Any Key To Start...");
-Console.ReadKey();
 Console.Clear();
 
 Console.WriteLine("Select A Config Name: ");
@@ -4450,6 +4351,24 @@ if (configGraphics == "1")
     SWMUP = null;
 
     Console.WriteLine("Mastercomfig Generator: Generated Preset Configs");
+
+    StreamWriter SWMDX = new System.IO.StreamWriter(@"C:\BLT.CFG.TEMPORARY\dxsupport_override.cfg");
+    SWMDX.WriteLine(mcUltraDxSupportOverride);
+    SWMDX.Flush();
+    SWMDX.Close();
+    SWMDX.Dispose();
+    SWMDX = null;
+
+    Console.WriteLine("Mastercomfig Generator: Generated 'dxsupport_override.cfg'");
+
+    StreamWriter SWMPR = new System.IO.StreamWriter(@"C:\BLT.CFG.TEMPORARY\texture_preload_list.txt");
+    SWMPR.WriteLine(mcUltraTexturePreloadList);
+    SWMPR.Flush();
+    SWMPR.Close();
+    SWMPR.Dispose();
+    SWMPR = null;
+
+    Console.WriteLine("Mastercomfig Generator: Generated 'texture_preload_list.txt'");
 }
 else if (configGraphics == "2")
 {
@@ -4514,6 +4433,9 @@ SWBLT.WriteLine(interpCvar);
 SWBLT.WriteLine(interpRatioCvar);
 SWBLT.WriteLine(updateRateCvar);
 SWBLT.WriteLine(rateCvar);
+SWBLT.WriteLine(viewmodelDrawCfg);
+SWBLT.WriteLine(viewmodelMiniCfg);
+SWBLT.WriteLine(viewmodelFlipCfg);
 SWBLT.Flush();
 SWBLT.Close();
 SWBLT.Dispose();

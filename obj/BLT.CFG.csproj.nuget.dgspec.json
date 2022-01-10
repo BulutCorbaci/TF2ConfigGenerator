@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\CeshurBulut\\source\\repos\\TF2ConfigGenerator\\TF2ConfigGenerator.csproj": {}
+    "D:\\Users\\CeshurBulut\\source\\repos\\TF2ConfigGenerator\\BLT.CFG.csproj": {}
   },
   "projects": {
-    "D:\\Users\\CeshurBulut\\source\\repos\\TF2ConfigGenerator\\TF2ConfigGenerator.csproj": {
+    "D:\\Users\\CeshurBulut\\source\\repos\\TF2ConfigGenerator\\BLT.CFG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\CeshurBulut\\source\\repos\\TF2ConfigGenerator\\TF2ConfigGenerator.csproj",
-        "projectName": "TF2ConfigGenerator",
-        "projectPath": "D:\\Users\\CeshurBulut\\source\\repos\\TF2ConfigGenerator\\TF2ConfigGenerator.csproj",
+        "projectUniqueName": "D:\\Users\\CeshurBulut\\source\\repos\\TF2ConfigGenerator\\BLT.CFG.csproj",
+        "projectName": "BLT.CFG",
+        "projectPath": "D:\\Users\\CeshurBulut\\source\\repos\\TF2ConfigGenerator\\BLT.CFG.csproj",
         "packagesPath": "D:\\Users\\CeshurBulut\\.nuget\\packages\\",
         "outputPath": "D:\\Users\\CeshurBulut\\source\\repos\\TF2ConfigGenerator\\obj\\",
         "projectStyle": "PackageReference",

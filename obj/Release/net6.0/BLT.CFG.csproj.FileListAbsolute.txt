@@ -1,0 +1,17 @@
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\bin\Release\net6.0\BLT.CFG.exe
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\bin\Release\net6.0\BLT.CFG.deps.json
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\bin\Release\net6.0\BLT.CFG.runtimeconfig.json
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\bin\Release\net6.0\BLT.CFG.dll
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\bin\Release\net6.0\ref\BLT.CFG.dll
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\bin\Release\net6.0\BLT.CFG.pdb
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\bin\Release\net6.0\Colorful.Console.dll
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\obj\Release\net6.0\BLT.CFG.csproj.AssemblyReference.cache
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\obj\Release\net6.0\BLT.CFG.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\obj\Release\net6.0\BLT.CFG.AssemblyInfoInputs.cache
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\obj\Release\net6.0\BLT.CFG.AssemblyInfo.cs
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\obj\Release\net6.0\BLT.CFG.csproj.CoreCompileInputs.cache
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\obj\Release\net6.0\BLT.CFG.csproj.CopyComplete
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\obj\Release\net6.0\BLT.CFG.dll
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\obj\Release\net6.0\ref\BLT.CFG.dll
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\obj\Release\net6.0\BLT.CFG.pdb
+D:\Users\CeshurBulut\source\repos\TF2ConfigGenerator\obj\Release\net6.0\BLT.CFG.genruntimeconfig.cache
